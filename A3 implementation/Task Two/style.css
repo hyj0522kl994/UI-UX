@@ -1,0 +1,141 @@
+body {
+    font-size: 80%;
+
+    letter-spacing: 0.15em;
+
+}
+
+.logo p {
+  border-bottom: 3px solid #4683AC;
+}
+
+.logo .container img{
+  max-width: 100%;
+
+}
+.nav container{
+  list-style-type: none;
+  margin: 0;
+  width:100%;
+  overflow: hidden;
+  background-color: #4683AC;
+  position: fixed;
+
+}
+
+.nav li{
+  display:inline;
+  float: left;
+  border-right:1px solid #4683AC;
+
+}
+
+.nav li a{
+  display: block;
+  color: #4683AC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Trebuchet MS;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #59B7F6;
+  color:white;
+}
+
+.nav .active {
+      background-color: #59B7F6;
+      color:white;
+}
+
+.title {
+  background-size: cover;
+  background-color: #4683AC;
+  padding : 0.5%;
+  font-family:Comic Sans MS;
+}
+
+.title .container {
+  background-color: #f3f9fd;
+  background-size: cover;
+  width :  80%;
+  height:Auto;
+}
+.title .container img{
+  max-width: 100%;
+  padding:10px;
+  width:60%;
+
+}
+
+.question {
+  padding: 2%;
+  font-family:Comic Sans MS;
+}
+.answer{
+  padding: 2%;
+  background-color: #f3f9fd;
+  font-family:Comic Sans MS;
+
+}
+
+.returning{
+  padding: 2%;
+  font-family:Trebuchet MS;
+}
+.jumbotron {
+  background-image: url(g.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:600px;
+}
+.jumbotron .container {
+  background-color: #4C606E;
+  opacity:0.8;
+  width:70%;
+  height:100%;
+  color:#18b8e8;
+  font-family:Comic Sans MS;
+
+}
+
+.jumbotron .container a {
+  color: #f3f9fd;
+  font-family:Comic Sans MS;
+}
+
+
+.jumbotron .container p {
+  color: white;
+  float:right;
+  font-family:Comic Sans MS;
+
+}
+ .answer .container textarea{
+   max-width:100%;
+ }
+
+
+.learn .container{
+  padding-top:25px;
+  padding-bottom: 100px;
+  font-family:Trebuchet MS;
+
+}
+
+.learn{
+    background-color: #f3f9fd;
+    font-family:Trebuchet MS;
+}
+
+.details {
+  background-color: #4C606E;
+  height:100px;
+  font-family:Trebuchet MS;
+}
+.details p{
+  color:white;
+  font-family:Trebuchet MS;
+}
+
